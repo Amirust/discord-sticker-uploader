@@ -40,10 +40,14 @@ export class Uploader {
 		const servers = (await ServerManager.getAvailableServers())
 			.sort((a, b) => b.availablePlaces - a.availablePlaces);
 
-		if (servers.reduce((a, b) => a + b.availablePlaces, 0) < files.length) {
-			console.log("not enough servers");
-		}
+		const allStickerPlaces = servers.reduce((a, b) => a + b.availablePlaces, 0);
 
+		if (allStickerPlaces < files.length) {
+			for (let i = 0; i < Math.ceil(files.length / 5); i++) {
+				const created = await ServerManager.createServer();
+				servers.push(created);
+			}
+		}
 
 		for (const server of servers) {
 			if (Object.keys(results).length === 0) break;

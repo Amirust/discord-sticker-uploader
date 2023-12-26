@@ -1,7 +1,7 @@
 import { DiscordService } from "@DSU/discord/DiscordService";
 import { Uploader } from "@DSU/core/worker/Uploader";
 
-export class DSU {
+export default class DSU {
 	public discordService: DiscordService;
 	public uploader: Uploader;
 

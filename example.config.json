@@ -1,5 +1,7 @@
 {
   "watchFolder": "Global Path to folder",
   "uploadInterval": 30000,
-  "botToken": ""
+  "botToken": "",
+  "baseGuildName": "Mira stickers #{number}",
+  "invitesChannel": "invites"
 }

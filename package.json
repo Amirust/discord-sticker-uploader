@@ -1,15 +1,16 @@
 {
   "name": "discord-sticker-uploader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Fully automatic stickers uploader for Discord using AI",
   "main": "index.js",
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "start": "node ."
   },
+  "type": "commonjs",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Amirust",
+  "license": "AGPL-3.0",
   "dependencies": {
     "chokidar": "^3.5.3",
     "discordoo": "^1.0.0-dev.t1692458773.6bc3e67",
