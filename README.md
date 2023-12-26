@@ -8,7 +8,7 @@ Why? Bot fetch all guilds and get number to new guild and then send invite to ne
 
 ## Bot intents
 Bot must have all intents, you can set all as in picture
-(img)[https://github.com/Amirust/discord-sticker-uploader/blob/master/intents.png]
+![img](https://github.com/Amirust/discord-sticker-uploader/blob/master/intents.png)
 
 # Usage
 1. Install `Node.js (>= 16)`, `Python (>= 10)` and Python PIP
