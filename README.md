@@ -19,14 +19,6 @@ Bot must have all intents, you can set all as in picture
 6. Move any .png file to `stickers` folder (it will be created on setup) and wait info in console
 
 # Config
-{
-"watchFolder": "Global Path to folder",
-"uploadInterval": 30000,
-"botToken": "",
-"baseGuildName": "Mira stickers #{0}",
-"invitesChannel": "invites"
-}
-
 ### `watchFolder`
 The folder where you will put new stickers for observer, it should be a global path<br>
 Example: "C:/DSU/stickers" (Windows), "~/stickers" (UNIX)
